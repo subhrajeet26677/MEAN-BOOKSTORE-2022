@@ -1,23 +1,23 @@
-// import { NgModule } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
+  // Components in this module.
   declarations: [
     AppComponent
   ],
-  //imports module it depends on
+  // Imports modules it depends on
   imports: [
     BrowserModule,
-    AuthModule
+    AuthModule,
+    HomeModule
   ],
   providers: [],
-  //entry point for module
+  // Entry point for module
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-//i have to delete the component and make a new one

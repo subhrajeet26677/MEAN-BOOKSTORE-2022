@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  //used to render components
+  // Used to render components
   selector: 'app-root',
-  //locate html part of component
+  // locates html part of component
   templateUrl: './app.component.html',
-  //locate css part of the component
+  // locates css part of component.
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'book-store';
 }
 
-//angular components
-//3 parts (1. html, 2. css, 3. ts)
+// Angular Components
+// 3 parts (1. HTML, 2. CSS, 3. TS)
