@@ -15,6 +15,6 @@ import { BookModule } from '../book/book.module';
     SharedModule,
     BookModule
   ],
-  exports:[HomeComponent]
+  exports: [HomeComponent]
 })
 export class HomeModule { }

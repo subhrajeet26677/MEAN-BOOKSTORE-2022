@@ -11,6 +11,6 @@ import { BookCardComponent } from './components/book-card/book-card.component';
   imports: [
     CommonModule
   ],
-  exports:[BookCardComponent]
+  exports: [BookCardComponent]
 })
 export class BookModule { }

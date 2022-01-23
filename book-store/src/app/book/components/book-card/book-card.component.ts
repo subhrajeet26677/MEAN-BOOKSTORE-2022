@@ -9,7 +9,7 @@ import { BookModel } from '../../models/book.model';
 export class BookCardComponent implements OnInit {
 
   // Book card takes a book;
-  @Input() book: BookModel;
+  @Input() book!: BookModel;
 
   constructor() { }
 
